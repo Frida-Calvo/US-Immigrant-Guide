@@ -84,6 +84,8 @@
   /* Darker background on mouse-over */
   .btn:hover {
       background-color: RoyalBlue;
+      cursor: url(images/heartcursor.png), auto; /* Mouse pointer on hover */
+
   }
     h1 {
       color: navy;
