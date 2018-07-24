@@ -13,3 +13,5 @@ function myFunction() {
 }
 
 // end of Frida's js
+
+<button id="myButton" class="float-left submit-button" >Home</button>
