@@ -32,6 +32,8 @@
 .topnav .icon {
     display: none;
 }
+/* space out the buttons */
+.spaceOut {margin-left: 100px}
 
 
 /* this is just for small screens */
@@ -67,7 +69,7 @@
       color: navy;
       text-align: center;
   }
-  
+
   p {
       font-family: abel;
       font-size: 20px;
