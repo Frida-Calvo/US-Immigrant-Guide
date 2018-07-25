@@ -167,5 +167,18 @@
   }
 >>>>>>> 33d4554b28ba157546b3887ffdc3e940a8646156
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 
     /* end of Molly's css */
+
+
+    /*Sirena's css */
+    h2{
+      color: navy;
+      text-align: center;
+    }
