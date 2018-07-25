@@ -22,7 +22,7 @@
     display: block;
     color: white;
     text-align: center;
-    padding: 20px 25px;
+    padding: 18px 20px;
     text-decoration: none;
     font-size: 20px;
     position: sticky;
@@ -84,7 +84,7 @@
                     .dropdown:hover .dropdown-content {
                         display: block;
                         position: fixed;
-                        top: 119px;
+                        top: 115px;
                      }
 
 
@@ -176,14 +176,7 @@ font-family: 'Raleway', sans-serif;
 
 
     /*Sirena's css */
-\
     h2{
-      color: black;
+      color: navy;
       text-align: center;
-      font-family: 'JosefinSlab', sans-serif;
-    }
-    @font-face {
-      font-family: "JosefinSlab";
-      src: url(JosefinSlab-Regular.ttf);
-
     }
