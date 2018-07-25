@@ -188,7 +188,14 @@
 
 
     /*Sirena's css */
+\
     h2{
-      color: navy;
+      color: black;
       text-align: center;
+      font-family: 'JosefinSlab', sans-serif;
+    }
+    @font-face {
+      font-family: "JosefinSlab";
+      src: url(JosefinSlab-Regular.ttf);
+
     }
