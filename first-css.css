@@ -158,32 +158,26 @@
       text-align: center;
   }
 
-<<<<<<< HEAD
 
-=======
-
-h3{
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
-font-family: 'Raleway', sans-serif;
-
-}
     /* end of Molly's css */
 
 
     /*Sirena's css */
-\
+    p {
+      font-family: "JosefinSlab";
+    }
     h2{
       color: black;
       text-align: center;
-      font-family: 'JosefinSlab', sans-serif;
+      font-family: JosefinSlab, serif;
     }
     @font-face {
-      font-family: "JosefinSlab";
-      src: url(JosefinSlab-Regular.ttf);
-
+      font-family: JosefinSlab;
+      src: url(C:\Users\lenovo\Documents\final-project\font\JosefinSlab-Regular.ttf);
     }
