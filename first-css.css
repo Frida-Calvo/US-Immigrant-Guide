@@ -22,7 +22,7 @@
     display: block;
     color: white;
     text-align: center;
-    padding: 18px 20px;
+    padding: 20px 25px;
     text-decoration: none;
     font-size: 20px;
     position: sticky;
@@ -84,7 +84,7 @@
                     .dropdown:hover .dropdown-content {
                         display: block;
                         position: fixed;
-                        top: 115px;
+                        top: 119px;
                      }
 
 
