@@ -244,25 +244,29 @@ body {
       color: navy;
       text-align: center;
     }
-    .column {
-        float: left;
-        width: 33.33%;
-    }
+body {
+    margin:0;
+    font-family: Raleway;
 
-    /* Clear floats after the columns */
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-    .column {
-    float: left;
-    width: 50%;
+  }
+
+#container {
+  width: 900px;
+  margin-left: auto;
+  margin-right:auto;
+
+}
+#container #left {
+  width: 299px;
+  border-right: 1px solid #202020;
+  float:left;
+  background-color: #F3f3f3;
+  height:100%;
 }
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+#container #right {
+  width: 600px;
+  float: right;
+  background-color: #F3F3F3;
+  height:100%;
 }
