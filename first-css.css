@@ -147,10 +147,6 @@
       text-align: center;
   }
 
-<<<<<<< HEAD
-
-=======
-
 h3{
 .center {
     display: block;
@@ -187,20 +183,20 @@ body {
 .rightcolumn {
   float: left;
   width: 25%;
-  padding-left: 20px;
+  padding-left: 40px;
 }
 
 /* Fake image */
 .fakeimg {
   background-color: #aaa;
   width: 100%;
-  padding: 20px;
+  padding: 40px;
 }
 
 /* Add a card effect for articles */
 .card {
   background-color: white;
-  padding: 20px;
+  padding: 40px;
   margin-top: 20px;
 }
 
@@ -223,8 +219,9 @@ body {
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {
     width: 100%;
-    padding: 0;
+    padding: 30;
   }
+
     /* end of Molly's css */
 
 
@@ -232,4 +229,10 @@ body {
     h2{
       color: navy;
       text-align: center;
+    }
+    h5 {
+      color: blue;
+      font-family: fantasy;
+      font-size: 40px;
+
     }
