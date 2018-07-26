@@ -8,8 +8,8 @@
 
 
     /* Frida's css */
-/* top navigation css (Frida) */
 
+<<<<<<< HEAD
 /* coral background */
 .topnav {
   background-color: #ea4d53;   /*pink */
@@ -114,6 +114,8 @@
     text-align: left;
   }
 }
+=======
+>>>>>>> c522aadbba6c9ab3b73cf3ad224adc9f4735fc1e
 
     /* end of Frida's css */
     /* Molly's css */
@@ -233,3 +235,29 @@ body {
       color: navy;
       text-align: center;
     }
+body {
+    margin:0;
+    font-family: Raleway;
+
+  }
+
+#container {
+  width: 900px;
+  margin-left: auto;
+  margin-right:auto;
+
+}
+#container #left {
+  width: 299px;
+  border-right: 1px solid #202020;
+  float:left;
+  background-color: #F3f3f3;
+  height:100%;
+}
+
+#container #right {
+  width: 600px;
+  float: right;
+  background-color: #F3F3F3;
+  height:100%;
+}
