@@ -196,8 +196,8 @@ body {
 /* Add a card effect for articles */
 .card {
   background-color: white;
-  padding: 40px;
-  margin-top: 20px;
+  padding: 30px;
+  margin-top: 10px;
 }
 
 /* Clear floats after the columns */
@@ -227,8 +227,9 @@ body {
 
     /*Sirena's css */
     h2{
-      color: navy;
+      color: black;
       text-align: center;
+      font-family:
     }
     h5 {
       color: blue;
