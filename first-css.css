@@ -125,7 +125,13 @@
   height: auto;
 }
 
-
+.ssn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 36%;
+  height: auto;
+}
 
 
 
