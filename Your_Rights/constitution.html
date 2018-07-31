@@ -16,15 +16,18 @@
   <!-- top navigation buttons, plan them to put them on every page on top -->
 
   <style type="text/css">
+  .active, .dot:hover {
+    background-color: #E41B23;
+  }
   #my_centered_buttons { display: flex; justify-content: center; }
   </style>
   <div class="topnav" id="my_centered_buttons">
-    <a class="active" href="../index.html"id="myTopnav" >Home</a><!--the id variable is used to link to JS-->
+    <a href="../index.html"id="myTopnav" >Home</a><!--the id variable is used to link to JS-->
 
   <div class="dropdown">
-    <a href="yourRights.html">Your Rights</a>
+    <a class="active" href="yourRights.html">Your Rights</a>
       <div class="dropdown-content">
-        <a href="constitution.html">Constitutional Rights</a>
+        <a class="active" href="constitution.html">Constitutional Rights</a>
         <a href="ICE.html">When Confronted by ICE</a>
         <a href="police.html">When Confronted by Police</a>
         <a href="families.html">#KeepFamiliesTogether</a>
