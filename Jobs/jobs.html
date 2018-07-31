@@ -23,9 +23,14 @@
 
     <style type="text/css">
     #my_centered_buttons { display: flex; justify-content: center; }
+
+    .active, .dot:hover {
+      background-color: #E41B23;
+    }
+
     </style>
     <div class="topnav" id="my_centered_buttons">
-      <a class="active" href="../index.html"id="myTopnav" >Home</a><!--the id variable is used to link to JS-->
+      <a  href="../index.html"id="myTopnav" >Home</a><!--the id variable is used to link to JS-->
 
     <div class="dropdown">
       <a href="../Your_Rights/yourRights.html">Your Rights</a>
@@ -55,7 +60,7 @@
     </div>
 
     <div class="dropdown">
-      <a href="jobs.html">Jobs</a>
+      <a  class="active" href="jobs.html">Jobs</a>
         <div class="dropdown-content">
           <a href="workersRights.html">Workers' Rights</a>
           <a href="taxes.html">Taxes</a>
