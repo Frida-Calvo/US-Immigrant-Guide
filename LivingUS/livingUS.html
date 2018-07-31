@@ -7,6 +7,9 @@
   p.double{border-style: double;
     border-color: #1b4f72;
   }
+  .active, .dot:hover {
+    background-color: #E41B23;
+  }
 
   </style>
   <a href="file:///C:/Users/lenovo/Documents/final-project/index.html">
@@ -25,7 +28,7 @@
     #my_centered_buttons { display: flex; justify-content: center; }
     </style>
     <div class="topnav" id="my_centered_buttons">
-      <a class="active" href="../index.html"id="myTopnav" >Home</a><!--the id variable is used to link to JS-->
+      <a  href="../index.html"id="myTopnav" >Home</a><!--the id variable is used to link to JS-->
 
     <div class="dropdown">
       <a href="../Your_Rights/yourRights.html">Your Rights</a>
@@ -65,7 +68,7 @@
     </div>
 
     <div class="dropdown">
-      <a href="livingUS.html">Living in the US</a>
+      <a class="active" href="livingUS.html">Living in the US</a>
         <div class="dropdown-content">
           <a href="safeAreas.html">Safe Areas (Sanctuaries)</a>
           <a href="checkpoints.html">Immigration Checkpoints</a>
